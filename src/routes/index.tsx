@@ -1,25 +1,20 @@
-import { component$ } from '@builder.io/qwik';
 import type { DocumentHead } from '@builder.io/qwik-city';
 
-export default component$(() => {
-  return (
-    <>
-      <h1>Hi 👋</h1>
-      <div>
-        Can't wait to see what you build with qwik!
-        <br />
-        Happy coding.
-      </div>
-    </>
-  );
-});
+import RootPage from './about';
+
+export const Routes = [
+  { title: 'About', url: '/about' },
+  { title: 'Games', url: '/games' },
+];
+
+export default RootPage;
 
 export const head: DocumentHead = {
-  title: 'Welcome to Qwik',
+  title: "Albert's Portfolio",
   meta: [
     {
       name: 'description',
-      content: 'Qwik site description',
+      content: "Albert's portfolio site",
     },
   ],
 };
