@@ -1,6 +1,8 @@
 **/*.log
 **/.DS_Store
 *.
+*.css
+*.md
 .vscode/settings.json
 .history
 .yarn
@@ -11,6 +13,7 @@ bazel-qwik
 bazel-testlogs
 dist
 dist-dev
+public
 lib
 lib-types
 etc
@@ -36,3 +39,6 @@ pnpm-lock.yaml
 package-lock.json
 yarn.lock
 server
+tailwind.config.js
+tsconfig.json
+postcss.config.cjs
