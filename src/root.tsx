@@ -23,7 +23,7 @@ export default component$(() => {
           (function() {
             let theme = localStorage.getItem('theme-state');
 
-            if (!theme) {
+            if (!theme || theme == 'auto') {
               theme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
             }
 

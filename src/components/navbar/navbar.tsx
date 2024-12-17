@@ -4,7 +4,7 @@ import { Routes } from '../../routes';
 
 export const Navbar = component$(() => {
   return (
-    <div class="navbar bg-base-100 shadow-md">
+    <div class="navbar border-b bg-base-100 drop-shadow-sm">
       <div class="navbar-start">
         <div class="dropdown">
           <div tabIndex={0} role="button" class="btn btn-ghost lg:hidden">

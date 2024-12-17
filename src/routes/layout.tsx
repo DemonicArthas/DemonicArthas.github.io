@@ -17,13 +17,11 @@ export const onGet: RequestHandler = async ({ cacheControl }) => {
 
 export default component$(() => {
   return (
-    <>
+    <div class="mockup-window m-4 max-w-5xl border bg-base-100 shadow-xl md:mx-auto">
       <Navbar>
         <ThemeSwitcher q:slot="navbar-end" />
       </Navbar>
-      <div class="m-4">
-        <Slot />
-      </div>
-    </>
+      <Slot />
+    </div>
   );
 });
