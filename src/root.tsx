@@ -18,6 +18,33 @@ export default component$(() => {
       <head>
         <meta charset="utf-8" />
         {!isDev && <link rel="manifest" href={`${import.meta.env.BASE_URL}manifest.json`} />}
+        <script
+          dangerouslySetInnerHTML={`
+          (function() {
+            let theme = localStorage.getItem('theme-state');
+
+            if (!theme) {
+              theme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+            }
+
+            document.documentElement.setAttribute('data-theme', theme);
+          })();
+          window.addEventListener('load', function() {
+            const themeSwitcher = document.getElementById('theme-switcher');
+            if (themeSwitcher) themeSwitcher.dispatchEvent(new Event('change'));
+          });
+          window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', (event) => {
+            const themeState = localStorage.getItem('theme-state');
+            if (themeState != null && themeState != 'auto') return;
+
+            const theme = event.matches ? 'dark' : 'light';
+            document.documentElement.setAttribute('data-theme', theme);
+
+            const themeSwitcher = document.getElementById('theme-switcher');
+            if (themeSwitcher) themeSwitcher.dispatchEvent(new Event('change'));
+          });
+        `}
+        ></script>
         <RouterHead />
       </head>
       <body lang="en">

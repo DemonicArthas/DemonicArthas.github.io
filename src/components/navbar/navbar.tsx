@@ -1,10 +1,10 @@
-import { component$ } from '@builder.io/qwik';
+import { component$, Slot } from '@builder.io/qwik';
 
 import { Routes } from '../../routes';
 
 export const Navbar = component$(() => {
   return (
-    <div class="navbar bg-base-100">
+    <div class="navbar bg-base-100 shadow-md">
       <div class="navbar-start">
         <div class="dropdown">
           <div tabIndex={0} role="button" class="btn btn-ghost lg:hidden">
@@ -38,6 +38,9 @@ export const Navbar = component$(() => {
             </li>
           ))}
         </ul>
+      </div>
+      <div class="navbar-end">
+        <Slot name="navbar-end" />
       </div>
     </div>
   );
