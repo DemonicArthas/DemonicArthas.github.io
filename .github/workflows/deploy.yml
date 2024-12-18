@@ -1,7 +1,14 @@
-on:
-  - push
-  - pull_request
+name: Deploy app
 
+on:
+  push:
+    branches: ['main']
+
+permissions:
+  contents: read
+  pages: write
+
+jobs:
   build-and-deploy:
     name: Build and deploy
     runs-on: ubuntu-latest
@@ -10,7 +17,7 @@ on:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Install pnpm 
+      - name: Install pnpm
         uses: pnpm/action-setup@v4
         with:
           version: 9
