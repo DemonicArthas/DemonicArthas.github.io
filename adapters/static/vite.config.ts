@@ -12,7 +12,7 @@ export default extendConfig(baseConfig, () => {
     },
     plugins: [
       staticAdapter({
-        origin: "https://demonicarthas.github.io/portfolio",
+        origin: "https://demonicarthas.github.io",
       }),
     ],
   };
