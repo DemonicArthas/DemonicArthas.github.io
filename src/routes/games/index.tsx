@@ -1,4 +1,5 @@
 import { component$ } from '@builder.io/qwik';
+import type { DocumentHead } from '@builder.io/qwik-city';
 
 const games = [
   {
@@ -68,3 +69,13 @@ export default component$(() => {
     </div>
   );
 });
+
+export const head: DocumentHead = {
+  title: "Albert's Portfolio",
+  meta: [
+    {
+      name: 'description',
+      content: "Albert's portfolio site",
+    },
+  ],
+};
