@@ -23,9 +23,9 @@ const games = [
     description: 'Game 4 description',
   },
   {
-    id: 'example',
-    title: 'Game 5',
-    description: 'Game 5 description',
+    id: 'supernatural',
+    title: 'Supernatural: The Game',
+    description: 'Supernatural The Game is a short prequel to the famous TV-series',
   },
 ];
 
