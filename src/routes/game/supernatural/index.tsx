@@ -9,13 +9,13 @@ export default component$(() => {
            <p>Supernatural The Game is a short fan-prequel to the famous TV-series</p>
            <p>I was responsible for:</p>
            <ul>
-            <il>Prototyping</il>
-            <il>Developing game mechanics using blueprints</il>
-            <il>Technical game-design</il>
-            <il>Everything related to driving (Impala)</il>
-            <il>Some of the animation logic</il>
-            <il>Some game-design decisions</il>
-            <il>Implementing and integrating external assets</il>
+            <li>Prototyping</il>
+            <li>Developing game mechanics using blueprints</il>
+            <li>Technical game-design</il>
+            <li>Everything related to driving (Impala)</li>
+            <li>Some of the animation logic</li>
+            <li>Some game-design decisions</li>
+            <li>Implementing and integrating external assets</li>
            </ul>
       </article>
       <video width="1024" height="768" controls autoplay muted>
