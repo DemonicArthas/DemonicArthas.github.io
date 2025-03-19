@@ -7,7 +7,6 @@ export default component$(() => {
       <article class="prose p-4 lg:prose-lg">
         <h2>Supernatural: The Game</h2>
            <p>Supernatural The Game is a short fan-prequel to the famous TV-series</p>
-      </article>
            <p>I was responsible for:</p>
            <ul>
             <li>Prototyping</li>
@@ -28,6 +27,7 @@ export default component$(() => {
         <source src="/games/supernatural/footage_old.mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
+      </article>
     </div>
   );
 });

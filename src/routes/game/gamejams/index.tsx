@@ -7,9 +7,8 @@ export default component$(() => {
       <article class="prose p-4 lg:prose-lg">
         <h2>Game Jams</h2>
         <p>These are miscellaneous game jams or other small projects I've worked on.</p>
-      </article>
         <br />
-        <h1>Latibulum</h1>
+        <h3>Latibulum</h3>
         <p>Prepare to be a hunter... and a victim.</p>
         <p>A walking sim with some minor horror and action elements and a unique "different perspective" switch throghout the story.</p>
         <p>Solo project</p>
@@ -19,7 +18,7 @@ export default component$(() => {
         </video>
         <a href="https://drive.google.com/file/d/10F7uftZdLc6STxhg_IFShrrsWBT4KHMd">Download Latibulum_v1.1_(Eng) (Google Drive)</a> 
       <br />
-        <h1>Bury Me</h1>
+        <h3>Bury Me</h3>
         <p>You were betrayed... And now you need to bury your own body while being a ghost.</p>
         <p>Puzzle game with some strategic and platformer elements.</p>
         <p>Collaborative project where I was responsible for all of the programming/logic/game mechanics. Also helped with some of the level-design.</p>
@@ -29,7 +28,7 @@ export default component$(() => {
         </video>
         <a href="https://drive.google.com/file/d/1EZxBeCx8lLA_fe59OkKxS55WcTBRQtef">Download BuryMe_v.1.0_(Rus) (Google Drive)</a> 
       <br />
-        <h1>NTTE</h1>
+        <h3>NTTE</h3>
         <p>Gaze into the future... To save yourself in the past.</p>
         <p>Essentially a walking sim with puzzle, parkour and actions elements sprinkled throughout the game.</p>
         <p>Solo project.</p>
@@ -39,7 +38,7 @@ export default component$(() => {
         </video>
         <a href="https://drive.google.com/file/d/15K_cdS5pC4DJMnDqxLloxZ7jukX9hHEE">Download NTTE (Google Drive)</a>
       <br />
-        <h1>Tales of the Past</h1>
+        <h3>Tales of the Past</h3>
         <p>Prototype for an action-adventure game similar to Witcher III.</p>
         <p>Team project. I was tasked with creating most of the game's logic (stance and fighting system, magic system, leveling system, quests, etc.)</p>
         <video width="1024" height="768" controls muted>
@@ -47,6 +46,7 @@ export default component$(() => {
           Your browser does not support the video tag.
         </video>
       <br />
+      </article>
     </div>
   );
 });
