@@ -22,8 +22,9 @@ export default component$(() => {
         <source src="/games/supernatural/footage.mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
+      <br></br>
       <p>Some more (older) footage</p>
-      <video width="1024" height="768" controls autoplay muted>
+      <video width="1024" height="768" controls muted>
         <source src="/games/supernatural/footage_old.mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
@@ -32,7 +33,7 @@ export default component$(() => {
 });
 
 export const head: DocumentHead = {
-  title: "Albert's Portfolio - Supernatural",
+  title: "Supernatural - Albert's Portfolio",
   meta: [
     {
       name: 'description',

@@ -13,19 +13,19 @@ const games = [
     description: 'Game 2 description',
   },
   {
-    id: 'example',
-    title: 'Game 3',
-    description: 'Game 3 description',
-  },
-  {
-    id: 'example',
-    title: 'Game 4',
-    description: 'Game 4 description',
+    id: 'neonblack',
+    title: 'Neon Black',
+    description: 'Neon Black is a stealth-action platformer',
   },
   {
     id: 'supernatural',
     title: 'Supernatural: The Game',
     description: 'Supernatural The Game is a short fan-prequel to the famous TV-series',
+  },
+  {
+    id: 'gamejams',
+    title: 'Game Jams',
+    description: 'Various gamejams and other small projects',
   },
 ];
 
