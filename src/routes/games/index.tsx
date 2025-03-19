@@ -25,7 +25,7 @@ const games = [
   {
     id: 'supernatural',
     title: 'Supernatural: The Game',
-    description: 'Supernatural The Game is a short prequel to the famous TV-series',
+    description: 'Supernatural The Game is a short fan-prequel to the famous TV-series',
   },
 ];
 
