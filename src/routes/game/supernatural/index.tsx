@@ -9,9 +9,9 @@ export default component$(() => {
            <p>Supernatural The Game is a short fan-prequel to the famous TV-series</p>
            <p>I was responsible for:</p>
            <ul>
-            <li>Prototyping</il>
-            <li>Developing game mechanics using blueprints</il>
-            <li>Technical game-design</il>
+            <li>Prototyping</li>
+            <li>Developing game mechanics using blueprints</li>
+            <li>Technical game-design</li>
             <li>Everything related to driving (Impala)</li>
             <li>Some of the animation logic</li>
             <li>Some game-design decisions</li>
