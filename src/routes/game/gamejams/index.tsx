@@ -7,6 +7,7 @@ export default component$(() => {
       <article class="prose p-4 lg:prose-lg">
         <h2>Game Jams</h2>
         <p>These are miscellaneous game jams or other small projects I've worked on.</p>
+        </article>
         <br />
         <h3>Latibulum</h3>
         <p>Prepare to be a hunter... and a victim.</p>
@@ -46,7 +47,6 @@ export default component$(() => {
           Your browser does not support the video tag.
         </video>
       <br />
-      </article>
     </div>
   );
 });
