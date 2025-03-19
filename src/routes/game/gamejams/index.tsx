@@ -34,10 +34,10 @@ export default component$(() => {
         <p>Essentially a walking sim with puzzle, parkour and actions elements sprinkled throughout the game.</p>
         <p>Solo project.</p>
         <video width="1024" height="768" controls muted>
-          <source src="/games/gamejams/NTTE.mp4" type="video/mp4" />
+          <source src="/games/gamejams/NeonTower.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
-        <a href="https://drive.google.com/file/d/15K_cdS5pC4DJMnDqxLloxZ7jukX9hHEE">Download NTTE (Google Drive)</a>
+        <a href="https://drive.google.com/file/d/1NvA-RxiM1g6Egnk2_xF-TBzG5SUlqVi6">Download NeonTower_v1.1 (Google Drive)</a>
       <br />
         <h3>Tales of the Past</h3>
         <p>Prototype for an action-adventure game similar to Witcher III.</p>
