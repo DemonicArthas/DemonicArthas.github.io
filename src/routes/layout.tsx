@@ -17,8 +17,8 @@ export const onGet: RequestHandler = async ({ cacheControl }) => {
 
 export default component$(() => {
   return (
-    <div class="mockup-window m-4 max-w-5xl border bg-base-100 shadow-xl md:mx-auto">
-      <Navbar>
+    <div class="mockup-window bg-base-100 m-4 max-w-5xl border shadow-xl md:mx-auto">
+      <Navbar routes={[]}>
         <ThemeSwitcher q:slot="navbar-end" />
       </Navbar>
       <Slot />

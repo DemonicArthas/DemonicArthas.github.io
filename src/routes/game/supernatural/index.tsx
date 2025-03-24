@@ -1,5 +1,13 @@
 import { component$ } from '@builder.io/qwik';
 import type { DocumentHead } from '@builder.io/qwik-city';
+import { type GameConfig } from '~/components/game-card/game-card';
+
+export const config: GameConfig = {
+  id: 'supernatural',
+  title: 'Supernatural: The Game',
+  description: 'Supernatural The Game is a short fan-prequel to the famous TV-series',
+  order: 1,
+};
 
 export default component$(() => {
   return (

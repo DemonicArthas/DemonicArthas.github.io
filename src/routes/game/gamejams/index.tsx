@@ -1,5 +1,13 @@
 import { component$ } from '@builder.io/qwik';
 import type { DocumentHead } from '@builder.io/qwik-city';
+import type { GameConfig } from '~/components/game-card/game-card';
+
+export const config: GameConfig = {
+  id: 'gamejams',
+  title: 'Game Jams',
+  description: 'Various gamejams and other small projects',
+  order: 0,
+};
 
 export default component$(() => {
   return (
