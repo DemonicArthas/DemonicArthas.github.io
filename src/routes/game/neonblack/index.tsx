@@ -20,10 +20,10 @@ export default component$(() => {
         </p>
         <p>Team project where I was fully responsible for game design and level design decisions.</p>
         <video width="1024" height="768" controls muted>
-          <source src="/games/neonblack/NeonBlack.mp4" type="video/mp4" />
+          <source src="/games/neonblack/footage_NeonBlack.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
-        <a href="https://slayerdf.github.io/NeonBlack/">Play Neon Black in browser (Github.io)</a>
+        <a href="games/neonblack/NeonBlackBuild.zip">Download Neon Black</a>
       </article>
     </div>
   );
