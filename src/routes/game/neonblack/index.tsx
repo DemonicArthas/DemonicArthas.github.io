@@ -23,7 +23,7 @@ export default component$(() => {
           <source src="/games/neonblack/footage_NeonBlack.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
-        <a href="NeonBlackBuild.zip">Download Neon Black</a>
+        <a href="https://demonicarthas.github.io/games/neonblack/NeonBlackBuild.zip">Download Neon Black</a>
       </article>
     </div>
   );
