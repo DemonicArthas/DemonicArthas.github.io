@@ -4,8 +4,8 @@ import type { GameConfig } from '~/components/game-card/game-card';
 
 export const config: GameConfig = {
   id: 'gamejams',
-  title: 'Game Jams',
-  description: 'Various gamejams and other small projects',
+  title: 'Game Jams and Freelance',
+  description: 'Various gamejams, freelance work and other small projects',
   order: 0,
 };
 
@@ -14,7 +14,7 @@ export default component$(() => {
     <div class="bg-base-200 p-2">
       <article class="prose p-4 lg:prose-lg">
         <h2>Game Jams</h2>
-        <p>These are miscellaneous game jams or other small projects I've worked on.</p>
+        <p>These are some of my miscellaneous game jam games, freelance work or other small projects I've worked on.</p>
         <h3>Latibulum</h3>
         <p>Prepare to be a hunter... and a victim.</p>
         <p>
