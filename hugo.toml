@@ -2,17 +2,6 @@ baseURL = 'https://demonicarthas.github.io/'
 languageCode = 'en-us'
 title = "Albert's Portfolio"
 
-[menus]
-  [[menus.main]]
-    name = 'Home'
-    pageRef = '/'
-    weight = 10
-
-  [[menus.main]]
-    name = 'Games'
-    pageRef = '/games'
-    weight = 20
-
 [build]
   [build.buildStats]
     enable = true
