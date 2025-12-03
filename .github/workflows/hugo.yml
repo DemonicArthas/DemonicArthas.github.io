@@ -37,6 +37,11 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: ${{ env.NODE_VERSION }}
+          cache: "pnpm"
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 9
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
@@ -55,9 +60,10 @@ jobs:
           echo "Go: $(go version)"
           echo "Hugo: $(hugo version)"
           echo "Node.js: $(node --version)"
+          echo "PNPM: $(pnpm --version)"
       - name: Install Node.js dependencies
         run: |
-          [[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true
+          pnpm install --frozen-lockfile
       - name: Configure Git
         run: |
           git config core.quotepath false
