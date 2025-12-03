@@ -1,0 +1,10 @@
+{
+  "[html]": {
+    "editor.formatOnSave": false,
+    "editor.defaultFormatter": null
+  },
+  "[toml]": {
+    "editor.formatOnSave": false,
+    "editor.defaultFormatter": null
+  }
+}

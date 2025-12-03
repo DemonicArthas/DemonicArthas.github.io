@@ -1,0 +1,12 @@
+{{ define "main" }}
+  <div class="bg-base-200 p-2">
+    <article class="prose p-4 lg:prose-lg">
+      <h2>{{ .Title }}</h2>
+      {{ .Content }}
+    </article>
+  </div>
+{{ end }}
+
+{{ define "footer" }}
+  {{ partial "commento.html" . }}
+{{ end }}

@@ -1,0 +1,38 @@
+{{ $id := .Slug }}
+
+<a href="{{ .RelPermalink }}" class="hover-3d group aspect-square cursor-pointer">
+  <div class="card image-full [&_figure_img]:brightness-{{ default  45 .Params.imageBrightness }} bg-base-100">
+    {{ with .Resources.GetMatch "image.jpg" }}
+    <figure class="opacity-100 transition-opacity duration-300 group-hover:opacity-0">
+      <img src="{{ .RelPermalink }}" alt="{{ $id }}" />
+    </figure>
+    {{ end }}
+    <figure class="opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+      <picture class="h-full w-full">
+        {{ with .Resources.GetMatch "image.avif" }}
+        <source srcset="{{ .RelPermalink }}" type="image/avif" />
+        {{ end }}
+        {{ with .Resources.GetMatch "image.webp" }}
+        <source srcset="{{ .RelPermalink }}" type="image/webp" />
+        {{ end }}
+        {{ with .Resources.GetMatch "image.jpg" }}
+        <img src="{{ .RelPermalink }}" alt="{{ $id }}" />
+        {{ end }}
+      </picture>
+    </figure>
+    <div class="card-body">
+      <h2 class="card-title">{{ .Title }}</h2>
+      <p>{{ .Description }}</p>
+    </div>
+  </div>
+
+  <!-- 8 empty divs needed for the 3D effect -->
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+</a>
