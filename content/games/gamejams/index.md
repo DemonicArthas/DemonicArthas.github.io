@@ -1,7 +1,7 @@
 +++
 title = 'Game Jams and Freelance'
 description = 'Various gamejams, freelance work and other small projects'
-date = "2025-06-11T14:36:00+03:00"
+date = "2025-011-12T18:53:00+03:00"
 draft = false
 imageBrightness = 80
 +++
@@ -51,3 +51,12 @@ Prototype for an action-adventure game similar to Witcher III.
 Team project. I was tasked with creating most of the game's logic (stance and fighting system, magic system, leveling system, quests, etc.)
 
 {{< video src="TotP.mp4" >}}
+
+### Boss Fight (Saber Interactive Technical Interview)
+
+A small test project for my Saber Interactive technical interview. 
+
+Featuring a single boss fight with a couple of player/game mechanics, multiple boss phases and changing attack patterns, along with a few surprises and suprisingly polished tutorial section. And a Furi soundtrack, because it's awesome.
+
+{{< video src="BossFight.mp4" >}}
+Walkthrough with commentary on my design decisions.
