@@ -1,7 +1,7 @@
 +++
 title = 'Game Jams and Freelance'
 description = 'Various gamejams, freelance work and other small projects'
-date = "2025-011-12T18:53:00+03:00"
+date = "2025-11-12T18:53:00+03:00"
 draft = false
 imageBrightness = 80
 +++
