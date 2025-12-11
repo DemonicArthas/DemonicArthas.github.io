@@ -12,14 +12,14 @@
 </head>
 
 <body>
-  <div class="mockup-window bg-base-100 m-4 max-w-5xl border border-base-300 shadow-xl md:mx-auto">
+  <div class="mockup-window bg-base-100 m-4 max-w-[960px] border border-base-300 shadow-xl md:mx-auto">
     {{ partial "navbar.html"}}
     <main>
       {{ block "main" . }}{{ end }}
     </main>
   </div>
 
-  <div class="m-4 mt-8 max-w-5xl md:mx-auto">
+  <div class="m-4 mt-8 max-w-[960px] md:mx-auto">
     <footer>
       {{ block "footer" . }}{{ end }}
     </footer>
